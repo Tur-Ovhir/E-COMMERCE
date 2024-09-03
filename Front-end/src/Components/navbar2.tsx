@@ -11,7 +11,7 @@ export const Navbar2 = () => {
   return (
     <div className="flex justify-center">
       <div className="w-[1920px] h-[59px] bg-white border border-black justify-center flex">
-        <div className="flex w-[900px] h-[40px] justify-between items-center">
+        <div className="flex w-[900px] h-[40px] gap-96 items-center">
           <div className="flex gap-8 items-center">
             <h1 className="text-2xl font-bold">Ecommerce</h1>
             <Select>

@@ -23,7 +23,7 @@ export const Caraousel = () => {
                     Швед улсын хамгийн шилдэг брэндийг албан ёсны эрхтэйгээр
                     оруулж ирж байна
                   </p>
-                  <button className="w-[163px] h-[50px] bg-pink-600 text-white">
+                  <button className="w-[163px] h-[50px] bg-pink-600 hover:bg-pink-900 text-white">
                     Дэлгэрэнгүй
                   </button>
                 </div>
