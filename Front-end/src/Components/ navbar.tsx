@@ -21,15 +21,17 @@ export const Navbar = () => {
               <h1>77123456</h1>
             </div>
           </div>
-          <div className="flex gap-6">
+          <div className="flex gap-6 items-center">
             <div className="flex gap-2 text-white">
               <h1>Нэвтрэх</h1>
               <FaRegUser />
             </div>
-            <div className="flex gap-1 text-white">
+            <div className="flex gap-1 text-white items-center">
               <h1>Хадгалах</h1>
               <CiHeart />
-              <FaShoppingCart />
+            </div>
+            <div className="flex items-center">
+              <FaShoppingCart className="text-white" />
             </div>
           </div>
         </div>

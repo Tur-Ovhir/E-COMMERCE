@@ -7,6 +7,7 @@ import {
 } from "@/Components/ui/select";
 import { Input } from "@/Components/ui/input";
 import { CiSearch } from "react-icons/ci";
+import Link from "next/link";
 export const Navbar2 = () => {
   return (
     <div className="flex justify-center">
@@ -21,10 +22,15 @@ export const Navbar2 = () => {
               <SelectContent className="text-pink-800">
                 <SelectItem value="light">Нүүр</SelectItem>
                 <SelectItem value="dark">Нэвтрэх</SelectItem>
-                <SelectItem value="system">System</SelectItem>
+
+                <SelectItem value="system">
+                  <h1>Электрон бараа</h1>
+                </SelectItem>
               </SelectContent>
             </Select>
-            <h1 className="text-sm">Ангилал</h1>
+            <Link href={`/angilal`}>
+              <h1 className="text-sm">Ангилал</h1>
+            </Link>
           </div>
           <div className="flex items-center">
             <Input />
