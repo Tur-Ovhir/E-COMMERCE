@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer2 = () => {
   return (
     <div className="flex justify-center">
-      <div className="w-[1920px] h-[53px] bg-[#e7e4f8] flex gap-96 justify-center">
+      <div className="w-full h-[53px] bg-[#f2f0ff] flex gap-96 justify-center">
         <div className="w-[965px] h-[53px] flex  justify-between items-center">
           <div>
             <h1 className="text-xl text-gray-400 ">©ecommerce</h1>

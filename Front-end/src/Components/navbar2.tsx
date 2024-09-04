@@ -11,7 +11,7 @@ import Link from "next/link";
 export const Navbar2 = () => {
   return (
     <div className="flex justify-center">
-      <div className="w-[1920px] h-[59px] bg-white border border-black justify-center flex">
+      <div className="w-full h-[59px] bg-white  justify-center flex">
         <div className="flex w-[1200px] h-[40px] gap-96 items-center justify-between">
           <div className="flex gap-8 items-center">
             <h1 className="text-2xl font-bold">Ecommerce</h1>

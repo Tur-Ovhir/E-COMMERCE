@@ -7,8 +7,8 @@ const Angilal = () => {
       <Navbar />
       <Navbar2 />
       <div className="flex justify-center">
-        <div className="w-[1920px] h-[100px] bg-[#f6f5ff] flex gap-4 items-center ">
-          <div className="w-[1200px] h-[100px] flex justify-center items-center gap-4">
+        <div className="w-full h-[100px] bg-[#f6f5ff] flex gap-4 items-center ">
+          <div className="w-[1500px] h-[100px] flex justify-center items-center gap-4">
             <h1 className="">Home</h1>
             <h1 className="text-[#fb2e86]">. Электрон бараа</h1>
           </div>
